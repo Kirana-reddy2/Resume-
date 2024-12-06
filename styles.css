@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;  
+    padding: 30px;  
+    background-color: #fff;
+    box-shadow: 0 6 10px white;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;  
+    margin-bottom: 25px;  
+    background-color:#6fa5bd;
+    padding: 1rem;
+    color: white;
+}
+
+.personal-info h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.personal-info p {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+.contact p {
+    margin: 8px 0;  
+    font-size: 16px;
+}
+
+.contact i {
+    color: #444;
+    margin-right: 8px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
+
+/* Sections */
+section {
+    margin-bottom: 30px;  
+    
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;  
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;  
+    display: flex;
+    align-items: center;
+}
+
+section h2 i {
+    color: #74a3b8;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.degree, .project {
+    margin-bottom: 20px; 
+}
+
+.degree h3, .project h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+}
+
+.degree p, .project p {
+    font-size: 16px;
+    margin: 8px 0 0 0; 
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 8px 0;  
+    color: #666;
+}
+
+ul li:before {
+    content: "\2022"; 
+    color: #444;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.technical-skills ul li {
+    display: inline-block;
+    margin-right: 20px;  
+    background-color: #6fa5bd;
+    padding: 8px 15px;  
+    border-radius: 5px;
+    color: #333;
+}
+
+.technical-skills ul li:before {
+    content: "";
+    margin: 0;
+}
+
+
+.project p {
+    margin: 0;
+}
+
+
+.container section + section {
+    margin-top: 40px;  
+}
